@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Hello World!')
+  response.send('<h2>Hello WWAS 2016 Partners! This is an example of a basic node.js application.</h2>')
 })
 
 app.listen(app.get('port'), function() {
